@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <!-- bootstrap icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+
+    <!-- my css -->
+    <link rel="stylesheet" href="css/style.css" />
+    <title>olshop</title>
+  </head>
+  <body>
+    <!-- navbar navbar lama gk dihapus karena sapa tau perlu lagi
+    <nav class="navbar navbar-light bg-light fixed-top">
+      < class="container-fluid">
+        <div class="col-5">
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <span class="toggle-text"> Menu</span>
+        </div>
+        <div class="col-7"><a class="navbar-brand" href="#">nama brand</a></div>
+        <!-- off canvas
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">nama brand / nama pengguna setelah login</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> kategori produk </a>
+                <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+                  <li><a class="dropdown-item" href="#">produk1</a></li>
+                  <li><a class="dropdown-item" href="#">produk2</a></li>
+                  <li><a class="dropdown-item" href="#">produk3</a></li>
+                  <li><a class="dropdown-item" href="#">produk4</a></li>
+                  <li><a class="dropdown-item" href="#">produk5</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">keranjang</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">pesanan anda</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">login/register</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    akhir navbar -->
+
+    <!-- header -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand position-absolute top-50 start-50 translate-middle" href="#">nama brand</a>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link" href="#"><i class="bi bi-twitter"></i></a>
+            <a class="nav-link" href="#"><i class="bi bi-facebook"></i></a>
+            <a class="nav-link" href="#"><i class="bi bi-youtube"></i></a>
+            <a class="nav-link" href="#"><i class="bi bi-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- akhir header-->
+
+    <!-- navbar -->
+    <div class="container sticky-top container-navbar-menu">
+      <div class="navbar2">
+        <a class="navbar-menu-brand" href="#">nama brand</a>
+        <div class="navbar-menu">
+          <ul>
+            <li class="nav-item">
+              <a class="nav-link" href="#">baju <i class="bi bi-chevron-down"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">kemeja <i class="bi bi-chevron-down"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">hoodie <i class="bi bi-chevron-down"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">topi <i class="bi bi-chevron-down"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- akhir navbar -->
+    <!-- jumbotron -->
+
+    <div class="container container-jumbotron mb-5">
+      <div class="jumbotron jumbotron-fluid d-flex text-center">
+        <h1 class="display">welcome</h1>
+        <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+        <div class="row justify-content-center">
+          <form class="d-flex form-search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- akhir jumbotron -->
+
+    <!-- kategori -->
+    <section id="kategori">
+      <div class="container mb-5 container-kategori">
+        <div class="row text-center mt-5 mb-3">
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas voluptatem laborum expedita.</p>
+        </div>
+        <div class="row text-center justify-content-center mb-4 row-kategori-menu">
+          <div class="col-2">
+            <a class="btn btn-kategori-menu" href="#" role="button">baju</a>
+          </div>
+          <div class="col-2">
+            <a class="btn btn-kategori-menu" href="#" role="button">kemeja</a>
+          </div>
+          <div class="col-2">
+            <a class="btn btn-kategori-menu" href="#" role="button">hoodie</a>
+          </div>
+          <div class="col-2">
+            <a class="btn btn-kategori-menu" href="#" role="button">topi</a>
+          </div>
+        </div>
+        <!--  bagain card -->
+        <div class="row justify-content-center g-3 image-kategori">
+          <!-- corousel -->
+
+          <!-- akhir corousel -->
+          <div class="col-3">
+            <div class="card">
+              <img src="image/sketsa.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="card">
+              <img src="image/sketsa.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="card">
+              <img src="image/sketsa.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="card">
+              <img src="image/sketsa.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- akhir kategori -->
+
+    <!-- produk terbaru
+    <section id="produk-terbaru">
+      <div class="container container-produk-terbaru mb-5">
+        <div class="row mt-3 mb-3">
+          <h2>Produk Terbaru</h2>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-4">
+            <div class="card">
+              <img src="image/sketsa.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card">
+              <img src="image/sketsa.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+    <!-- akhir produk terbaru -->
+
+    <!-- footer -->
+    <section id="footer">
+      <div class="container mt-5 container-footer">
+        <div class="row gx-5 mb-3">
+          <div class="col-3 pt-4 pb-4 ps-4">
+            <img src="image/sketsa.jpg" class="img-thumbnail" alt="..." />
+          </div>
+          <div class="col-3 pt-4 ps-5">
+            <h4>Lainnya tentang kami</h4>
+            <p>tim sukses</p>
+            <p>Lorem, ipsum.</p>
+            <p>Lorem, ipsum.</p>
+          </div>
+          <div class="col-3 pt-4 ps-5">
+            <h4 class="pb-4">Bro support</h4>
+            <p>tim sukses</p>
+            <p>Lorem, ipsum.</p>
+            <p>Lorem, ipsum.</p>
+          </div>
+          <div class="col-3 pt-4 ps-5">
+            <h4 class="pb-4">Main menu</h4>
+            <p>tim sukses</p>
+            <p>Lorem, ipsum.</p>
+            <p>Lorem, ipsum.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer><p>Lorem ipsum dolor sit amet.</p></footer>
+    <!-- akhir footer -->
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
