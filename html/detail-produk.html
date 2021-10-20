@@ -9,8 +9,6 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
     <!-- bootstrap icon -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
-   
-
     <!-- my css -->
     <link rel="stylesheet" href="../css/style.css" />
     <title>Detail Produk | </title>
@@ -42,11 +40,11 @@
               </li>
               
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a class="nav-link dropdown-toggle" href="kategori-produk.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Product
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Baju</a></li>
+                  <li><a class="dropdown-item" href="kategori-produk.html">Baju</a></li>
                   <li><a class="dropdown-item" href="#">Kemeja</a></li>
                   <li><a class="dropdown-item" href="#">Hoodie</a></li>
                   <li><a class="dropdown-item" href="#">Topi</a></li>
@@ -58,8 +56,8 @@
               <button class="btn btn-light" type="submit"><i class="bi bi-search"></i></button> 
             </form>
             <form class="d-flex pt-1 pb-1">
-               <a class="btn btn-outline-light" href="../html/registrasi.html" role="button"> Sign Up</a>
-               <a class="btn btn-outline-light ms-3" href="../html/login.html" role="button"> Login</a>
+               <a class="btn btn-outline-light" href="registrasi.html" role="button"> Sign Up</a>
+               <a class="btn btn-outline-light ms-3" href="login.html" role="button"> Login</a>
             </form>
           </div>
         </div>
@@ -69,17 +67,20 @@
       <section id="detail-produk">
         <div class="container d-flex flex-md-column md-2 mt-5">
           <div class="row ">
-            <div class="col-xl-6 text-center ">
-              <img src="../image/baju1.jpeg" class="img-thumbnail" alt="..." >
+            <div class="col-xl-5 text-center image-slide">
+              <div class="image-show">
+                <img src="../image/baju1.jpeg" class="img-thumbnail" alt="..." >
+              </div>
+              
               <div class="container-produk-lainnya d-flex  justify-content-center mt-2">
                 <div class="row">
+                  <img class="pilihan-produk" src="../image/baju1.jpeg" >
                   <img class="pilihan-produk" src="../image/baju2.jpeg" >
-                  <img class="pilihan-produk" src="../image/baju2.jpeg" >
-                  <img class="pilihan-produk" src="../image/baju2.jpeg" >
+                  <img class="pilihan-produk" src="../image/kemeja1.jpeg">
                 </div>
               </div>
             </div>
-            <div class="col-xl-6 col-deskripsi-produk">
+            <div class="col-xl-7 col-deskripsi-produk">
               <h2 class=" judul-produk"> nama produk</h2>
               <h5 class="harga-produk"> Rp. 00000000S</h5>
               <p class="deskripsi-produk">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid placeat corporis vitae laudantium laborum, dolorum officiis provident, consequuntur laboriosam est exercitationem maiores adipisci modi quisquam.</p>
@@ -101,21 +102,27 @@
             </svg>
           </div>
           <div class="col-3 pt-4 ps-5">
-            <h4>Lainnya tentang kami</h4>
-            <p>tim sukses</p>
-            <p>Lorem, ipsum.</p>
-            <p>Lorem, ipsum.</p>
-          </div>
-          <div class="col-3 pt-4 ps-5">
-            <h4 class="pb-4">Bro support</h4>
-            <p>tim sukses</p>
-            <p>Lorem, ipsum.</p>
-            <p>Lorem, ipsum.</p>
+            <h4 class="pb-4">Kontributor</h4>
+            <p>Dwiki (08)</p>
+            <p>Pande (09)</p>
+            <p>Harta (13)</p>
+            <p>Adit  (17)</p>
+            <p>Ryan  (19)</p>
           </div>
           <div class="col-3 pt-4 ps-5">
             <h4 class="pb-4">Main menu</h4>
-            <p>home</p>
-            <p>produk</p>
+            <a href="../index.html" class="nav-footer">home</a>
+            <a href="kategori-produk.html" class="nav-footer">produk</a>
+          </div>
+          <div class="col-3 pt-4 ps-5">
+            <h4 class="pb-4">Alamat</h4>
+            <p>Jln. cokroaminoto No.84 Denpasar</p>
+            <div class="social-media-icon">
+              <a class="nav-link" href="#"><i class="bi bi-twitter"></i></a>
+              <a class="nav-link" href="#"><i class="bi bi-facebook"></i></a>
+              <a class="nav-link" href="#"><i class="bi bi-youtube"></i></a>
+              <a class="nav-link" href="#"><i class="bi bi-instagram"></i></a>
+            </div>
           </div>
         </div>
       </div>

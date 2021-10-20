@@ -186,14 +186,31 @@ h1 {
 .container-footer {
   color: var(--dark-color-lighten);
 }
+.container-footer .social-media-icon {
+  display: flex;
+}
+.container-footer .social-media-icon a {
+  color: var(--white-color);
+}
 footer {
   height: 50px;
   background-color: var(--dark-color);
   color: var(--white-color);
 }
+.nav-footer{
+  display: block;
+  color: var(--white-color);
+  text-transform: capitalize;
+  text-decoration: none;
+  padding-bottom: 5px;
+}
+.nav-footer:hover{
+  color:var(--dark-color-lighten);
+}
 /* ========================== CSS DETAIL PRODUK ============================= */
 .img-thumbnail{
   height: 600px;
+  width: 500px;
 }
 .judul-produk{
   font-size: 2rem;
@@ -211,9 +228,10 @@ footer {
 }
 
 .container-produk-lainnya img{
-  min-width: 50px;
-  max-width: 150px;
-  margin: auto;
+  height: 170px;
+  width: 150px;
+  margin: 0 1px;
+  transition: 1s;
 }
 /* ========================== AKHIR CSS DETAIL PRODUK ======================= */
 
@@ -242,4 +260,19 @@ footer {
   width: 400px;
   min-width: 200px;
 }
-/* =========================== Akhir CSS LOgin */
+/* =========================== Akhir CSS Login =====================================*/
+
+
+
+/* ========================== CSS KATEGORI PRODUK =================================== */
+.judul-kategori{
+  width: 200px;
+  padding: 10px ;
+  text-align: center;
+  font-weight: var(--font-bold);
+  font-size: 2.5rem;
+  border-bottom: 2px solid #000;
+
+}
+
+/* ========================== AKHIR CSS KATEGORI PRODUK */
