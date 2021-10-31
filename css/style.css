@@ -95,7 +95,7 @@ h1 {
   font-weight: var(--font-bold);
   font-family: "poppins", sans-serif;
   text-transform: uppercase;
-  color: var(--dark-color);
+  color: var(--white-color);
 }
 .form-search {
   padding: 0;
@@ -109,6 +109,7 @@ h1 {
 }
 .container-jumbotron {
   background-image: url("../image/bg1.jpeg");
+  background-size: cover;
   animation-name: slideshow;
   animation-duration: 15s;
   animation-delay: 2s;
@@ -160,18 +161,22 @@ h1 {
   font-weight: 400;
   margin: 10px;
 }
-
-.btn-kategori-menu:hover {
-  background-color: var(--white-color);
-  border: 1px solid var(--dark-color);
-}
 .image-kategori .card img {
   height: 230px;
+  width: 230px;
 }
-@media ( max-width: 728px) {
+.btn-card {
+  background-color: var(--dark-color);
+  color: var(--white-color);
+}
+.btn-card:hover {
+  color: var(--dark-color-lighten);
+}
+
+@media (max-width: 728px) {
   .image-kategori .card img {
-  height: 300px;
-}
+    height: 300px;
+  }
 }
 .image-kategori .card {
   transition: 0.3s;
@@ -179,6 +184,12 @@ h1 {
 .image-kategori .card:hover {
   transform: scale(0.99);
 }
+
+/* ============ Logo Brand ============ */
+.brand-logo img {
+  width: 200px;
+}
+/* =========== akhir logo brand ======= */
 /* footer */
 #footer {
   background-color: var(--dark-color-light);
@@ -197,37 +208,37 @@ footer {
   background-color: var(--dark-color);
   color: var(--white-color);
 }
-.nav-footer{
+.nav-footer {
   display: block;
   color: var(--white-color);
   text-transform: capitalize;
   text-decoration: none;
   padding-bottom: 5px;
 }
-.nav-footer:hover{
-  color:var(--dark-color-lighten);
+.nav-footer:hover {
+  color: var(--dark-color-lighten);
 }
 /* ========================== CSS DETAIL PRODUK ============================= */
-.img-thumbnail{
-  height: 600px;
+.img-thumbnail {
+  height: 500px;
   width: 500px;
 }
-.judul-produk{
+.judul-produk {
   font-size: 2rem;
   text-transform: capitalize;
   font-weight: var(--font-semi-bold);
   margin: 20px 0 10px 0;
 }
-.harga-produk{
+.harga-produk {
   font-size: 1.5rem;
   font-weight: var(--font-medium);
-  margin-bottom:20px;
+  margin-bottom: 20px;
 }
-.deskripsi-produk{
+.deskripsi-produk {
   margin-bottom: 20px;
 }
 
-.container-produk-lainnya img{
+.container-produk-lainnya img {
   height: 170px;
   width: 150px;
   margin: 0 1px;
@@ -262,17 +273,14 @@ footer {
 }
 /* =========================== Akhir CSS Login =====================================*/
 
-
-
 /* ========================== CSS KATEGORI PRODUK =================================== */
-.judul-kategori{
-  width: 200px;
-  padding: 10px ;
+.judul-kategori {
+  width: 300px;
+  padding: 10px;
   text-align: center;
   font-weight: var(--font-bold);
   font-size: 2.5rem;
   border-bottom: 2px solid #000;
-
 }
 
 /* ========================== AKHIR CSS KATEGORI PRODUK */
