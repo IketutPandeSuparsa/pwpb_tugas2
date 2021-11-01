@@ -13,8 +13,8 @@ window.addEventListener("scroll", function () {
 // image change when image onclick
 const imageSlide = document.querySelector(".image-slide");
 const imageShow = document.querySelector(".img-thumbnail");
-imageSlide.addEventListener("mouseover",function(e) {
-  if(e.target.className == 'pilihan-produk'){
+imageSlide.addEventListener("mouseover", function (e) {
+  if (e.target.className == "pilihan-produk") {
     imageShow.src = e.target.src;
   }
 });

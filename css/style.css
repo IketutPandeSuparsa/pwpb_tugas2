@@ -28,7 +28,7 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  background-color: var(--dark-color-lighten);
+  background-color: var(--white-color);
   font-family: "poppins", sans-serif;
 }
 .container-kategori {
@@ -246,9 +246,10 @@ footer {
 }
 /* ========================== AKHIR CSS DETAIL PRODUK ======================= */
 
+
 /* =========================== CSS Login =================================== */
 .container-form {
-  height: 80vh;
+  padding: 1.5rem;
   width: 100%;
 }
 .card-login {
@@ -272,6 +273,7 @@ footer {
   min-width: 200px;
 }
 /* =========================== Akhir CSS Login =====================================*/
+
 
 /* ========================== CSS KATEGORI PRODUK =================================== */
 .judul-kategori {
